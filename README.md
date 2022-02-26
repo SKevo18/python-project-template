@@ -38,6 +38,8 @@ A template for new Python projects.
 - [ ] When your are done, make a new release at GitHub to build documentation and upload to PyPI;
   - Don't forget to bump version in `setup.py` everytime you do a new release!!!
 
+Generated documentation example: https://cwkevo.github.io/python-project-template
+
 That should be it. Happy coding!
 
 If you have any questions or found a bug, please open a new issue in this repository.
