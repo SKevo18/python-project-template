@@ -1,6 +1,16 @@
 from typing import Generator
 from random import random as rand
 
+# Overwrite __doc__ with README, so that pdoc can render it:
+README_PATH = Path(__file__).parent.parent.absolute() / Path('README.md')
+try:
+    with open(README_PATH, 'r', encoding="UTF-8") as readme:
+        __readme__ = readme.read()
+except:
+    __readme__ = "Failed to read README.md!" # fallback message, for example when there's no README
+
+__doc__ = __readme__
+
 
 
 def infinitum(multiplier: int = 314) -> Generator[int, None, None]:
