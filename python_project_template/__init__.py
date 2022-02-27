@@ -1,4 +1,6 @@
 from typing import Generator
+
+from pathlib import Path
 from random import random as rand
 
 # Overwrite __doc__ with README, so that pdoc can render it:
