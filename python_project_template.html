@@ -19,6 +19,16 @@
         <div>
 
 
+        <h2>Contents</h2>
+        <ul>
+  <li><a href="#python-project-template">Python project template</a>
+  <ul>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#your-to-do-list">Your to-do list</a></li>
+    <li><a href="#support-me">🎁 Support me</a></li>
+  </ul></li>
+</ul>
+
 
 
         <h2>API Documentation</h2>
@@ -42,11 +52,100 @@
                     <h1 class="modulename">
 python_project_template    </h1>
 
-                
+                        <div class="docstring"><h1 id="python-project-template">Python project template</h1>
+
+<p>A template for new Python projects.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+<li>Automatically builds <a href="https://pdoc3.github.io/pdoc/">PDoc</a> documentation &amp; uploads package to <a href="https://pypi.org">PyPI</a> on new GitHub release, thanks to GitHub actions;</li>
+<li>Tests with pyTest before uploading to PyPI (or you can test manually with <code>workflow-dispatch</code>);</li>
+<li>Ready-to-go <code>setup.py</code> file;</li>
+<li>Scripts to build documentation and compile as a Python package;</li>
+<li>A to-do list below;</li>
+<li>Possibly more ;)</li>
+</ul>
+
+<h2 id="your-to-do-list">Your to-do list</h2>
+
+<p>(<em>Approx. time to set up:</em> 15 - 25 minutes)</p>
+
+<ul>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Edit <code># FIXME</code> lines to match your project;
+<ul>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> setup.py</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Package name</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> License</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Version</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Author</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Author email</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Description</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Keywords</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Classifiers</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Repository URL</li>
+</ul></li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Setup virtualenv (<code>scripts/setup_virtualenv_windows.ps1</code> for Windows);</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Rename <code><a href="">python_project_template</a></code> folder and start writing your source code;</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Add your dependencies to <code>requirements.txt</code>;</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Update .gitingore with your stuff;</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Replace this <code>README.md</code> file with a fancier one;</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Upload code to your GitHub repository;</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Turn on GitHub pages and use <code>documentation</code> as your pages branch;</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Add your editior to <code>.gitignore</code>;</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> Add your PyPI API key to GitHub secrets (<code>PYPI_API_TOKEN</code>);</li>
+<li><input type="checkbox" class="task-list-item-checkbox" disabled> When your are done, make a new release at GitHub to build documentation and upload to PyPI;
+<ul>
+<li>Don't forget to bump version in <code>setup.py</code> everytime you do a new release!!!</li>
+</ul></li>
+</ul>
+
+<p>Generated documentation example: https://cwkevo.github.io/python-project-template</p>
+
+<p>That should be it. Happy coding!</p>
+
+<p>If you have any questions or found a bug, please open a new issue in this repository.</p>
+
+<h2 id="support-me">🎁 Support me</h2>
+
+<p>I create free software to benefit people.
+If this project helps you and you like it, consider supporting me by donating via cryptocurrency:</p>
+
+<p><!------------------!------------------------------------------------------------------------------------------------!-->
+| Crypto:           | Address:                                                                                          |
+|-------------------|---------------------------------------------------------------------------------------------------|
+| Bitcoin           | <a href="mailto:me@kevo.link">E-mail me</a>                                                                  |
+| Ethereum          | <code>0x12C598b3bC084710507c9d6d19C9434fD26864Cc</code>                                                      |
+| Litecoin          | <code>LgHQK1NQrRQ56AKvVtSxMubqbjSWh7DTD2</code>                                                              |
+| Dash              | <code>Xe7TYoRCYPdZyiQYDjgzCGxR5juPWV8PgZ</code>                                                              |
+| Zcash:            | <code>t1Pesobv3SShMHGfrZWe926nsnBo2pyqN3f</code>                                                             |
+| Dogecoin:         | <code>DALxrKSbcCXz619QqLj9qKXFnTp8u2cS12</code>                                                              |
+| Ripple:           | <code>rNQsgQvMbbBAd957XyDeNudA4jLH1ANERL</code>                                                              |
+| Monero:           | <code>48TfTddnpgnKBn13MdJNJwHfxDwwGngPgL3v6bNSTwGaXveeaUWzJcMUVrbWUyDSyPDwEJVoup2gmDuskkcFuNG99zatYFS</code> |
+| Bitcoin Cash:     | <code>qzx6pqzcltm7ely24wnhpzp65r8ltrqgeuevtrsj9n</code>                                                      |
+| Ethereum Classic: | <code>0x383Dc3B83afBD66b4a5e64511525FbFeb2C023Db</code>                                                      |
+<!------------------!------------------------------------------------------------------------------------------------!--></p>
+
+<p>More cryptocurrencies are supported. If you are interested in donating with a different one, please <a href="mailto:me@kevo.link">E-mail me</a>.
+No other forms of donation are currently supported.</p>
+</div>
+
                         <details>
             <summary>View Source</summary>
             <div class="pdoc-code codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Generator</span>
+
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
 <span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">random</span> <span class="k">as</span> <span class="n">rand</span>
+
+<span class="c1"># Overwrite __doc__ with README, so that pdoc can render it:</span>
+<span class="n">README_PATH</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">parent</span><span class="o">.</span><span class="n">parent</span><span class="o">.</span><span class="n">absolute</span><span class="p">()</span> <span class="o">/</span> <span class="n">Path</span><span class="p">(</span><span class="s1">&#39;README.md&#39;</span><span class="p">)</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">README_PATH</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;UTF-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">readme</span><span class="p">:</span>
+        <span class="n">__readme__</span> <span class="o">=</span> <span class="n">readme</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="n">__readme__</span> <span class="o">=</span> <span class="s2">&quot;Failed to read README.md!&quot;</span> <span class="c1"># fallback message, for example when there&#39;s no README</span>
+
+<span class="vm">__doc__</span> <span class="o">=</span> <span class="n">__readme__</span>
 
 
 
