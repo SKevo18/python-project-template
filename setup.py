@@ -23,7 +23,7 @@ try:
     with open(README_PATH, 'r', encoding="UTF-8") as readme:
         __readme__ = readme.read()
 
-except:
+except Exception:
     __readme__ = "Failed to read README.md!"
 
 __doc__ = __readme__
