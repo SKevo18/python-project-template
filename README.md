@@ -13,8 +13,6 @@ A template for new Python projects.
 
 ## Your to-do list
 
-(*Approx. time to set up:* 15 - 25 minutes)
-
 - [ ] Edit `# FIXME` lines to match your project;
   - [ ] setup.py
     - [ ] Package name
