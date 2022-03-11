@@ -1,7 +1,6 @@
 {
     "version": "0.2.0",
     "configurations": [
-        // Pre-made Python debugger (automatically sets `PYTHONPATH` to workspace root directory)
         {
             "name": "Python: Current File",
             "type": "python",
